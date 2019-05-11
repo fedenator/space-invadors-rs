@@ -1,0 +1,9 @@
+[package]
+name    = "space-invadors-rs"
+version = "0.1.0"
+authors = ["Federico Palacios <fedenator7@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sdl2 = { version = "0.31.0", features = ["bundled", "static-link"] }
+gl   = "0.10.0"
